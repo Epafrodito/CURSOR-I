@@ -1,0 +1,384 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Roboto:wght@400;500;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+ 
+body {
+    max-width: 1488px;
+    height: 1430px;
+    margin: 0 auto;
+    background: #E5E5E5;
+    padding: 228px 24px 212px 24px;
+    
+}
+
+/*box1*/
+
+.box1 {
+    max-width: 1440px;
+    height: 72px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    background-color: #0B2239;
+    color: white;
+    padding: 16px 120px ;
+}
+.box1 p {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+
+    
+}
+.box1-link {
+    color:#4AD295;
+    white-space: nowrap;
+    display: inline-block;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+
+    
+}
+
+.box1-button {
+    width: 130px;
+    height: 36px;
+    background-color: #4AD295;
+    border-radius: 2px;
+    border: none;
+    color: white;
+    white-space: nowrap;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    
+}
+
+/*box2*/
+.box2 {
+    margin-top: 24px;
+    background-color: #2B2627;
+    width: 1440px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    color: white;   
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px; 
+}
+
+.a-box2 {
+    color: white;
+}
+
+.imgbox2 {
+    width: 18px;
+    height: 18px;
+    
+}
+/*box3*/
+.box3 {
+    background-color: white;
+    width: 560px;
+    height: 72px;
+    display: flex;
+    align-items: center;
+    margin-top: 72px;
+    border-radius: 16px;
+    border: none;
+}
+
+.box3 p {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.box3 span {
+color: #EA4C89;
+}
+
+.box3 button {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.box3but1 {
+    width: 63px;
+    height: 28px;
+    background-color:rgba(13, 12, 34, 0.05);
+    border-radius: 8px;
+    border: none;
+    color:#0D0C22;
+    white-space: nowrap;
+    margin-right: 10px;
+}
+
+.box3but2 {
+    width: 52px;
+    height: 28px;
+    background-color: #EA4C89;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    white-space: nowrap;
+    
+}
+
+/*box4*/
+
+
+.box4 {
+    background-color: #26262B;
+    width: 560px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-top: 24px;
+    border-radius: 10px;
+    border: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+
+}
+
+.box4link {
+    text-decoration: none;
+    color: orange;
+}
+
+.box4but {
+    width: 49px;
+    height: 28px;
+    background-color: white;
+    border-radius: 8px;
+    border: none;
+    color: #26262B;
+    white-space: nowrap;
+}
+ /*box5-6*/
+ 
+.box5-6 {
+    display: flex;
+    align-items: center;
+    margin-top: 72px;
+}
+
+.box5 {
+    background-color: #1C2540;
+    opacity: .9;
+    width: 360px;
+    height: 206px;
+    color: white;
+    margin-right: 40px;
+    border-radius: 6px;
+}
+
+.box5link1 {
+    color: white;
+}
+
+.box5link2 {
+    color: white;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-decoration: none;
+
+}
+ 
+.box5but {
+    width: 85px;
+    height: 32px;
+    background-color:#09B3AF;
+    border-radius: 6px;
+    border: none;
+    color:white;
+    white-space: nowrap;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16,41px;
+   
+}
+
+.box5h2, .box6h2  {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.box5p, .box6p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.box6 {
+    background-color: white;
+    width: 360px;
+    height: 170px;
+    border-radius: 16px;
+    border: none;
+
+}
+.box6but1{
+    width: 160px;
+    height: 32px;
+    background-color:#EAF0F4;
+    border-radius: 6px;
+    border: none;
+    color:#687F8C;
+    white-space: nowrap;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16.41px;
+}
+
+.box6but2 {
+    width: 85px;
+    height: 32px;
+    background-color:#40C1A7;
+    border-radius: 6px;
+    border: none;
+    color:white;
+    white-space: nowrap;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16,41px;
+}
+
+/*box7-8*/
+
+.box7-8 {
+    display: flex;
+    align-items: center;
+
+    margin-top: 72px;
+
+}
+
+
+.box7 {
+    background-color:white;
+    width: 320px;
+    height: 260px;
+    margin-right: 40px;
+    background: white;
+    border-radius: 7px;
+    border: none;
+
+
+}
+
+.box7h2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 48px;
+    color: #15295A;
+
+}
+
+.box7p {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #15295A;
+
+}
+
+.box7but {
+    width: 121px;
+    height: 44px;
+    background-color:#4A7EFF;
+    border-radius: 43px;
+    border: none;
+    color:white;
+    white-space: nowrap;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px; 
+}
+
+.box8 {
+    background-color: white;
+    width: 320px;
+    height: 137px;
+    border-radius: 4px;
+    border: none;
+
+
+}
+
+.box8p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px; 
+}
+
+.box8link {
+    text-decoration: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16,71px;
+    color: #6666FF;
+    
+}
+
+.box8but {
+    width: 64px;
+    height: 33px;
+    background-color:#6666FF;
+    border-radius: 4px;
+    border: none;
+    color:white;
+    white-space: nowrap;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16,71px;
+}
