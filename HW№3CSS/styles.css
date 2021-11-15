@@ -26,15 +26,15 @@ body {
     color: white;
     padding: 16px 120px ;
 }
+
 .box1 p {
     font-family: Inter;
     font-style: normal;
     font-weight: 400;
     font-size: 13px;
     line-height: 20px;
-
-    
 }
+
 .box1-link {
     color:#4AD295;
     white-space: nowrap;
@@ -44,8 +44,6 @@ body {
     font-weight: 600;
     font-size: 12px;
     line-height: 20px;
-
-    
 }
 
 .box1-button {
@@ -61,10 +59,10 @@ body {
     font-weight: 600;
     font-size: 12px;
     line-height: 20px;
-    
 }
 
 /*box2*/
+
 .box2 {
     margin-top: 24px;
     background-color: #2B2627;
@@ -72,6 +70,8 @@ body {
     height: 52px;
     display: flex;
     align-items: center;
+    justify-content: center;
+    gap: 8px;
     color: white;   
     font-family: Inter;
     font-style: normal;
@@ -87,18 +87,20 @@ body {
 .imgbox2 {
     width: 18px;
     height: 18px;
-    
 }
 /*box3*/
+
 .box3 {
     background-color: white;
     width: 560px;
     height: 72px;
     display: flex;
     align-items: center;
+    gap: 10px;
     margin-top: 72px;
     border-radius: 16px;
     border: none;
+    padding: 16px 24px;
 }
 
 .box3 p {
@@ -128,8 +130,7 @@ color: #EA4C89;
     border-radius: 8px;
     border: none;
     color:#0D0C22;
-    white-space: nowrap;
-    margin-right: 10px;
+    white-space: nowrap; 
 }
 
 .box3but2 {
@@ -139,12 +140,10 @@ color: #EA4C89;
     border-radius: 8px;
     border: none;
     color: white;
-    white-space: nowrap;
-    
+    white-space: nowrap;   
 }
 
 /*box4*/
-
 
 .box4 {
     background-color: #26262B;
@@ -155,13 +154,14 @@ color: #EA4C89;
     color: white;
     margin-top: 24px;
     border-radius: 10px;
+    gap: 10px;
+    padding: 12px 16px;
     border: none;
     font-family: Roboto;
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
     line-height: 20px;
-
 }
 
 .box4link {
@@ -178,11 +178,11 @@ color: #EA4C89;
     color: #26262B;
     white-space: nowrap;
 }
+
  /*box5-6*/
  
 .box5-6 {
     display: flex;
-    align-items: center;
     margin-top: 72px;
 }
 
@@ -194,6 +194,9 @@ color: #EA4C89;
     color: white;
     margin-right: 40px;
     border-radius: 6px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
 }
 
 .box5link1 {
@@ -208,7 +211,6 @@ color: #EA4C89;
     font-size: 14px;
     line-height: 20px;
     text-decoration: none;
-
 }
  
 .box5but {
@@ -223,8 +225,13 @@ color: #EA4C89;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16,41px;
-   
+    line-height: 16,41px;  
+}
+
+.box5div {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
 }
 
 .box5h2, .box6h2  {
@@ -233,6 +240,10 @@ color: #EA4C89;
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
+}
+
+.box5p {
+    margin: 10px 0 16px 0;
 }
 
 .box5p, .box6p {
@@ -249,8 +260,13 @@ color: #EA4C89;
     height: 170px;
     border-radius: 16px;
     border: none;
-
+    padding: 16px; 
 }
+
+.box6p {
+    margin: 10px 0 16px 0;
+}
+
 .box6but1{
     width: 160px;
     height: 32px;
@@ -267,7 +283,7 @@ color: #EA4C89;
 }
 
 .box6but2 {
-    width: 85px;
+    width: 160px;
     height: 32px;
     background-color:#40C1A7;
     border-radius: 6px;
@@ -285,12 +301,8 @@ color: #EA4C89;
 
 .box7-8 {
     display: flex;
-    align-items: center;
-
     margin-top: 72px;
-
 }
-
 
 .box7 {
     background-color:white;
@@ -300,8 +312,10 @@ color: #EA4C89;
     background: white;
     border-radius: 7px;
     border: none;
-
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px;
 }
 
 .box7h2 {
@@ -311,7 +325,6 @@ color: #EA4C89;
     font-size: 28px;
     line-height: 48px;
     color: #15295A;
-
 }
 
 .box7p {
@@ -321,7 +334,7 @@ color: #EA4C89;
     font-size: 14px;
     line-height: 24px;
     color: #15295A;
-
+    text-align: center;
 }
 
 .box7but {
@@ -337,6 +350,7 @@ color: #EA4C89;
     font-weight: 700;
     font-size: 16px;
     line-height: 24px; 
+    margin-top: 32px;
 }
 
 .box8 {
@@ -345,8 +359,7 @@ color: #EA4C89;
     height: 137px;
     border-radius: 4px;
     border: none;
-
-
+    padding: 16px;
 }
 
 .box8p {
@@ -355,6 +368,12 @@ color: #EA4C89;
     font-weight: 400;
     font-size: 14px;
     line-height: 20px; 
+}
+.box8div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 12px;
 }
 
 .box8link {
@@ -365,7 +384,6 @@ color: #EA4C89;
     font-size: 14px;
     line-height: 16,71px;
     color: #6666FF;
-    
 }
 
 .box8but {
