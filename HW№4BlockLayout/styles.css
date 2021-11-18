@@ -6,39 +6,34 @@ body {
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
+    margin: auto;
 }
 
 /* HEADER */
 
 .header {
     background-color: rgba(237, 76, 92, 1);
-    width: 100%;
-    padding: 95px;
+    padding: 122px 216px 95px 165px;
     display: flex;
-    gap: 80px;
-
-
+    gap: 80px; 
 }
+
 .headerbox1 {
-    width: 40%;
-
+    width: 45%;
 }
- 
-
 
 .h2header {
     font-weight: 700;
     font-size: 36px;
     line-height: 43px;
     color: rgba(255, 255, 255, 1);
-
 }
 
 .header-text {
     font-weight: 400;
     line-height: 19px;
     color: rgba(255, 255, 255, 1);
-
+    margin-bottom: 44px;
 }
 
 .header-logo {
@@ -64,46 +59,34 @@ body {
 .headerimg {
     width: 533px;
     height: 311px;
-
-    
-    
+    margin-left: 87px;
 }
 
 /* SECTION */
 
 .section {
     background-color:rgba(255, 255, 255, 1);
-    padding: 117px;
+    padding: 117px 250px 94px 176px;
     display: flex;
-    justify-content: space-between;
-
+    justify-content: space-between;  
 }
 
 .h2section {
     font-weight: 700;
     font-size: 36px;
     line-height: 43px;
-
 }
 
 .sectionbox1 {
     width: 434px;
-
-}
- 
-.section-text {
-
-
 }
 
 /* BUTTON*/
-
 
 .inputs {
     width: 40%;
 
 }
-
 
 .first-name {
    width: 45%;
@@ -112,7 +95,8 @@ body {
     font-size: 16px;
     color: rgba(19, 39, 67, 0.5);
     border: 1px solid black;
-
+    padding-left: 31px;
+    margin-right: 30px;
 }
 
 .last-name {
@@ -122,9 +106,9 @@ body {
     font-size: 16px;
     color: rgba(19, 39, 67, 0.5);
     border: 1px solid black;
-
-   
+    padding-left: 31px;
 }
+
 .name {
     display: flex;
     justify-content: space-between;
@@ -141,6 +125,7 @@ body {
     box-sizing: border-box;
     margin-bottom: 24px;
     border: 1px solid black;
+    padding-left: 31px;
 }
 
 .servise {
@@ -152,7 +137,7 @@ body {
     box-sizing: border-box;
     margin-bottom: 27px;
     border: 1px solid black;
-
+    padding-left: 31px;
 }
 
 .button {
@@ -168,13 +153,13 @@ body {
 
 footer {
     background-color: rgba(250, 250, 250, 1) ;
+    padding: 85px 196px 86px 166px;
 }
 
 .footbox {
     background-color:  rgba(250, 250, 250, 1);
     display: flex;
     justify-content: space-between;
-
 }
 
 .colon a {
@@ -182,37 +167,31 @@ footer {
     text-decoration: none;
 }
 
-
 .colon {
     display: flex;
     flex-direction: column;
-
+    margin-bottom: 86px;
 }
+
 .footbox h3 {
     font-size: 18px;
     font-weight: 700;
     color: rgba(16, 16, 16, 1);
-
 }
 
 .footbox p, a {
     font-size: 12px;
-
 }
 
-
-.footer-icon {
-    
+.footer-icon img {
+    margin-right: 17px;
 }
 
 .mastercard {
     width: 216px;
     height: 31px;
-
 }
-
 
 .copy {
     font-size: 12px;
-    
 }
