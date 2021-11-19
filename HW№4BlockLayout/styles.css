@@ -15,7 +15,7 @@ body {
     background-color: rgba(237, 76, 92, 1);
     padding: 122px 216px 95px 165px;
     display: flex;
-    gap: 80px; 
+    gap: 90px; 
 }
 
 .headerbox1 {
@@ -23,10 +23,12 @@ body {
 }
 
 .h2header {
+    font-family: Lato;
     font-weight: 700;
-    font-size: 36px;
+    font-size: 28px;
     line-height: 43px;
     color: rgba(255, 255, 255, 1);
+
 }
 
 .header-text {
@@ -59,7 +61,7 @@ body {
 .headerimg {
     width: 533px;
     height: 311px;
-    margin-left: 87px;
+    margin-left: 80px;
 }
 
 /* SECTION */
