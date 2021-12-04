@@ -15,7 +15,6 @@ body {
 /*box1*/
 
 .box1 {
-    max-width: 1440px;
     height: 72px;
     display: flex;
     align-items: center;
