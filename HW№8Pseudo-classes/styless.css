@@ -1,0 +1,64 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-box {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 50px);
+    gap: 10px;
+    margin-bottom: 100px;
+}
+
+.box {
+    width: 50px;
+    height: 50px;
+    background-color: gray;
+}
+
+.main-box div:nth-child(4n + 3) {
+    background-color: red;
+}
+
+.main-box div:nth-last-child(1),
+.main-box div:nth-last-child(3),
+.main-box div:nth-last-child(4) {
+    background-color: blue;
+}
+
+.create {
+    background-color: rgb(27, 175, 27);
+    border-radius: 25px;
+    border: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: honeydew;
+    padding: 15px 40px;
+    box-shadow: 5px 5px 10px 0px rgba(0, 112, 19, 0.671);
+    border: 3px solid transparent;
+    box-sizing: border-box;
+}
+
+.create:hover {
+    color:  rgb(27, 175, 27);
+    background-color: white;
+    border: 3px solid rgb(27, 175, 27);
+}
+
+.box-button {
+    display: flex;
+    align-items: center;
+}
+
+.box-button::before,
+.box-button::after {
+    content: "";
+    display: inline-block;
+    width: 80px;
+    height: 14px;
+    border-top: 2px solid rgb(139, 138, 138);
+    border-bottom: 2px solid rgb(139, 138, 138);
+}
