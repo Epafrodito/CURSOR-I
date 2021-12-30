@@ -33,6 +33,10 @@ header {
   font-size: 14px;
   color: #505f98;
 }
+.header-nav a:hover {
+  -webkit-text-decoration: underline solid 2px #929ecc;
+          text-decoration: underline solid 2px #929ecc;
+}
 .header-nav span {
   font-weight: 900;
   font-size: 26px;
@@ -46,6 +50,10 @@ header {
   padding: 4px 50px;
   border-radius: 2px;
   border: none;
+}
+.header-nav button:hover {
+  -webkit-transform: skew(-15deg);
+          transform: skew(-15deg);
 }
 
 .header-box-text {
@@ -85,6 +93,10 @@ header {
   padding: 5px;
   margin-bottom: 386px;
 }
+.header-box-text .header-box-text-button button:hover {
+  -webkit-transform: skew(-15deg);
+          transform: skew(-15deg);
+}
 
 @media (max-width: 320px) {
   header {
@@ -111,6 +123,10 @@ header {
   .header-nav button {
     font-size: 10px;
     padding: 4px 10px;
+  }
+  .header-nav button:hover {
+    -webkit-transform: skew(-15deg);
+            transform: skew(-15deg);
   }
 
   .header-box-text {
@@ -338,6 +354,10 @@ main {
   padding: 10px 30px;
   margin-bottom: 160px;
 }
+.article-box-4 .article-box-4-text button:hover {
+  -webkit-transform: skew(-15deg);
+          transform: skew(-15deg);
+}
 
 @media (max-width: 320px) {
   .article-box-4 {
@@ -418,6 +438,10 @@ aside .aside-box button {
   padding: 10px 50px;
   margin-bottom: 172px;
 }
+aside .aside-box button:hover {
+  -webkit-transform: skew(-15deg);
+          transform: skew(-15deg);
+}
 
 @media (max-width: 320px) {
   aside {
@@ -470,6 +494,10 @@ footer .footer-box-1 button {
   border: none;
   padding: 5px 30px;
 }
+footer .footer-box-1 button:hover {
+  -webkit-transform: skew(-15deg);
+          transform: skew(-15deg);
+}
 footer hr {
   margin-top: 60px;
   height: 1px;
@@ -499,6 +527,10 @@ footer .footer-box-2 .footer-nav a {
   font-weight: 400;
   font-size: 14px;
   color: #929ecc;
+}
+footer .footer-box-2 .footer-nav a:hover {
+  -webkit-text-decoration: underline solid 2px #929ecc;
+          text-decoration: underline solid 2px #929ecc;
 }
 footer .footer-box-2 .footer-link {
   display: -webkit-box;
